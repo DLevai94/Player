@@ -1,0 +1,116 @@
+body {
+    background: #a1a1a1;
+    background-image: url("img/musicbg.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #f8f8f8;
+    font-family: 'Helvetica', sans-serif;
+    margin: 0 auto;
+}
+header {
+    height: 50px;
+    background: #008000;
+    /*position: fixed;*/
+    border-bottom: 2px solid white;
+    width: 100%;
+    margin: 0;
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.51);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.51);
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.51);
+}
+.logo {
+    color: white;
+    float: left;
+    font-size: 25px;
+    padding-left: 16px;
+    line-height: 0px;
+    -webkit-transition: background-color 0.3s ease;
+    -moz-transition: background-color 0.3s ease;
+    -o-transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease;
+}
+.logo:hover {
+    color: #1a1a1a;
+}
+.headRight {
+    display: inline-block;
+    padding: 16px;
+    color: white;
+    float: right;
+    -webkit-transition: background-color 0.3s ease;
+    -moz-transition: background-color 0.3s ease;
+    -o-transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease;
+}
+.headRight:hover {
+    background: #1a1a1a;
+}
+button {
+    background: #008000;
+    color: #f8f8f8;
+    border: none;
+    width: 40px;
+    height: 40px;
+    margin: 20px 20px;
+    font-size: 1.5em;
+    padding: 4px;
+    -webkit-box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.51);
+    -moz-box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.51);
+    box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.51);
+    -webkit-transition: background-color 0.3s ease;
+    -moz-transition: background-color 0.3s ease;
+    -o-transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background: #f8f8f8;
+    color: #008000;
+}
+#rightBtn {
+    display: inline-block;
+    float: right;
+}
+section {}
+.repeatShuffle {}
+.playControls {
+    padding: 10px;
+    -webkit-transition: background-color 0.3s ease;
+    -moz-transition: background-color 0.3s ease;
+    -o-transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease;
+}
+.playControls:hover {
+    color: #008000;
+}
+#shuffleBtn {
+    float: left;
+}
+#repeatBtn {
+    float: right;
+}
+footer {
+    background: #1a1a1a;
+    border-top: 2px solid white;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0 auto;
+    -webkit-box-shadow: 4px -6px 10px 2px rgba(0, 0, 0, 0.51);
+    -moz-box-shadow: 4px -6px 10px 2px rgba(0, 0, 0, 0.51);
+    box-shadow: 4px -6px 10px 2px rgba(0, 0, 0, 0.51);
+}
+#legal, #legal a {
+    position: relative;
+    bottom: 0;
+    background: #282828;
+    color: #f8f8f8;
+    font-size: 11px;
+    padding: 4px;
+    text-decoration: none;
+    text-align: center;
+}
+#legal a:hover {
+    color: #008000;
+}
